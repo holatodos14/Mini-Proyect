@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My funval-API</title>
+    <style>
+      body {
+    background-image: linear-gradient(to left,rgb(143 148 250),rgb(82 87 204)); /* Lavender purple */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: #9370DB; /* Lavender purple */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #D8BFD8; /* Light thistle */
+  }
+    </style>
+    <script>
+      const button = document.getElementById("myButton");
+      button.addEventListener("click", () => {
+        alert("¡Bienvenido Juan Perez!");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bienvenido a mi funval-API</h1>
+      <p>¡Explora el mundo de la programación!</p>
+      <button id="myButton">David Cambeiro</button>
+    </div>
+  </body>
+</html>
